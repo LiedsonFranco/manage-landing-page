@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+  width: 80%;
+  margin-inline: auto;
+}
+
+body {
+  background-image: url("../images/bg-tablet-pattern.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 120% -400px;
+}
